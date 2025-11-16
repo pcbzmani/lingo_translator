@@ -24,7 +24,7 @@ CORS(app)  # Enable CORS for all routes
 # API key from environment or default
 # Set LINGO_API_KEY environment variable with your valid API key
 # Get your API key from https://lingo.dev
-API_KEY = os.environ.get("LINGO_API_KEY") or os.environ.get("LINGODOTDEV_API_KEY") or "api_oizn6e887lh22aca0ihkvks4"
+API_KEY = os.environ.get("LINGO_API_KEY") or os.environ.get("LINGODOTDEV_API_KEY") or "api_oxxxxxx4"
 
 def run_async(coro):
     """Run async function in a new thread with its own event loop"""
